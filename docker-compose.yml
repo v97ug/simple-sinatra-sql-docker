@@ -15,7 +15,7 @@ services:
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "true"
       MYSQL_DATABASE: "test"
-      MYSQL_USER: "root"
+      MYSQL_USER: "test"
       TZ: "Asia/Tokyo"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
